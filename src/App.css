@@ -5,7 +5,7 @@
   height: 100vh; /* ครอบคลุมความสูงของหน้าจอทั้งหมด */
 }
 .nav-logo img {
-  width: 100px; /* ปรับขนาดตามที่ต้องการ */
+  width: 50px; /* ปรับขนาดตามที่ต้องการ */
   height: auto;
 }
 
@@ -36,4 +36,35 @@
 .navbar-links a:hover {
   color: gray;
 }
+
+/* CSS สำหรับ Card*/
+
+.card-body {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center; /* จัดแนวเนื้อหากลางแนวแกนแนวตั้ง */
+}
+
+.card-img-left {
+  margin-right: 50px; /* ระยะห่างระหว่างรูป*/
+  border-radius: 10px; /* ขอบโค้ง*/
+  max-width: 400px; /* ขนาดรูป*/
+  height: auto; /* ปรับความสูง*/
+}
+
+.card-title{
+  margin-top: -20px ;
+}
+
+.card-text {
+  margin-top: -10px;
+  max-width: 300px; /* กำหนดความกว้างtext*/
+  overflow :hidden ;
+  text-overflow: ellipsis; /* แสดง ... เมื่อข้อความยาวเกินไป */
+  white-space: normal;
+  margin-bottom: -10px;
+}
+
+
 
