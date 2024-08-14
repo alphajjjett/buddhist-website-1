@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.background{
+  background-color: lightblue; /* เปลี่ยนเป็นสีที่ต้องการ */
+  background-size: cover; /* ทำให้ภาพเต็มหน้าจอ */
+  width: 100%;
+  height: 100vh; /* ครอบคลุมความสูงของหน้าจอทั้งหมด */
+}
+.nav-logo img {
+  width: 100px; /* ปรับขนาดตามที่ต้องการ */
+  height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar {
+  background-color: black;
+  padding: 10px 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links li {
+  margin: 0;
+}
+
+.navbar-links a {
   color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-links a:hover {
+  color: gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
