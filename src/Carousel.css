@@ -1,0 +1,31 @@
+.carousel-item img {
+    filter: brightness(75%); /* ลดความสว่างของภาพ */
+    height: 400px; /* กำหนดความสูงของ Carousel */
+    object-fit: cover; /* ปรับภาพให้ครอบคลุมขนาดที่กำหนด */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 2rem; /* ปรับขนาดของข้อความในหัวข้อ */
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem; /* ปรับขนาดของข้อความในคำบรรยาย */
+    color: #f8f9fa;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* เพิ่มพื้นหลังโปร่งแสงให้กับคำบรรยาย */
+    padding: 20px; /* เพิ่ม padding */
+    border-radius: 10px; /* ปรับขอบให้โค้งมน */
+  }
+  
+  .carousel-indicators li {
+    background-color: #007bff; /* เปลี่ยนสี indicator */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ffffff; /* เปลี่ยนสี indicator เมื่อ active */
+  }
+  
