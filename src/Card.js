@@ -3,7 +3,7 @@ import './Card.css';
 
 function Card() {
   return (
-    <div>
+    <div className='BOX'>
         <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
                 <img
                     alt=""
