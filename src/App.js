@@ -1,12 +1,13 @@
-
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import React from 'react';
 import "./App.css";
 
+
 function App() {
   return (
-    <div className="text">
-        <h1>AI KUY BOSZ</h1>
+    <div>
+      <h1>
+        this is page 1
+      </h1>
     </div>
     
   );
