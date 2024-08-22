@@ -51,14 +51,14 @@
 }
 
 .card-title:hover {
-  color: #4f46e5; /* Tailwind CSS indigo-600 */
+  color: orange; 
 }
 
 .card-text {
   margin-top: 8px;
-  font-size: 0.875rem; /* Tailwind CSS text-sm */
-  line-height: 1.75; /* Tailwind CSS leading-relaxed */
-  color: #6b7280; /* Tailwind CSS gray-500 */
+  font-size: 0.875rem;
+  line-height: 1.75; 
+  color: #6b7280; 
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;

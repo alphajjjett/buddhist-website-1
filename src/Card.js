@@ -7,17 +7,17 @@ function Card() {
       <div className='BOX1'>
         <article className="card">
           <img
-            alt=""
-            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="img1"
+            src="./img/img1.jpg"
             className="card-image"
           />
           <div className="card-content">
-            <time dateTime="2022-10-10" className="card-date"> 10th Oct 2022 </time>
+            <time dateTime="2022-10-10" className="card-date"> 1 ส.ค. 2567 </time>
             <a href="#">
-              <h3 className="card-title">How to position your furniture for positivity</h3>
+              <h3 className="card-title">วันมาฆะบูชา</h3>
             </a>
             <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            วันมาฆบูชา ตรงกับวันขึ้น 15 ค่ำ เดือน 3 ถือเป็นวันสำคัญทางพระพุทธศาสนาวันหนึ่ง สำหรับประวัติวันมาฆบูชา ความสำคัญของวันมาฆบูชา รวมถึงกิจกรรมที่พุทธศาสนิกชนควรปฏิบัติมีอะไรบ้าง
             </p>
           </div>
         </article>
@@ -25,17 +25,17 @@ function Card() {
       <div className='BOX2'>
         <article className="card">
           <img
-            alt=""
-            src="https://images.unsplash.com/photo-1516802273409-68526ee1bdd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="img2"
+            src="./img/img2.jpg"
             className="card-image"
           />
           <div className="card-content">
-            <time dateTime="2022-10-11" className="card-date"> 11th Oct 2022 </time>
+            <time dateTime="2022-10-11" className="card-date"> 1 ส.ค. 2567 </time>
             <a href="#">
-              <h3 className="card-title">Tips for creating a productive workspace</h3>
+              <h3 className="card-title">วันวิสาขบูชา</h3>
             </a>
             <p className="card-text">
-              Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium.
+            เป็นวันที่สมเด็จพระอรหันตสัมมาสัมพุทธเจ้า ประสูติ ตรัสรู้ และปรินิพพาน ซึ่งเกิดขึ้นในวันและเดือนเดียวกัน คือ ในวันเพ็ญ (ขึ้น ๑๕ ค่ำ) เดือนหก หรือเดือนเวสาขะ พระจันทร์เสวยวิสาขฤกษ์
             </p>
           </div>
         </article>
@@ -43,17 +43,17 @@ function Card() {
       <div className='BOX3'>
         <article className="card">
           <img
-            alt=""
-            src="https://images.unsplash.com/photo-1516802273409-68526ee1bdd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="img3"
+            src="./img/img3.jpg"
             className="card-image"
           />
           <div className="card-content">
-            <time dateTime="2022-10-12" className="card-date"> 12th Oct 2022 </time>
+            <time dateTime="2022-10-12" className="card-date"> 1 ส.ค. 2567 </time>
             <a href="#">
-              <h3 className="card-title">Tips for creating a productive workspace</h3>
+              <h3 className="card-title">วันอัฏฐมีบูชา</h3>
             </a>
             <p className="card-text">
-              Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium.
+            เมื่อพระพุทธเจ้าเสด็จปรินิพพานแล้ว ๘ วัน มัลลกษัตริย์แห่งนครกุสินารา พร้อมด้วยประชาชน และพระสงฆ์อันมีพระมหากัสสปเถระเป็นประธาน ได้พร้อมกันกระทำการถวายพระเพลิงพุทธสรีระ ณ มกุฏพันธนเจดีแห่งกรุงกุสินารา
             </p>
           </div>
         </article>

@@ -1,0 +1,50 @@
+
+.bg {
+  background-color: #ffffff;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.budhalogo {
+  width: 50px; 
+  height: auto;
+}
+
+.md\\:flex {
+  display: flex;
+}
+
+.space-x-4 > * + * {
+  margin-left: 1rem; 
+}
+
+.text {
+  color: black; 
+  font-weight: bold;
+}
+
+.text:hover {
+  color: orange; 
+  transition: color 0.3s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
