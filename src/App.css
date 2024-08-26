@@ -1,3 +1,40 @@
-.text_1 {
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
     text-align: center;
-}
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .video-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; 
+    flex: 1;
+    max-width: 600px; 
+  }
+  
+  .video-responsive iframe {
+    border-radius: 8px; 
+  }
+  
+  .data-text {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: #333;
+    max-width: 550px;
+    text-align: left;
+  }
+
+  .data-text b{
+    font-size: 20px;
+  }
+ 

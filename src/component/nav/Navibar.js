@@ -12,8 +12,8 @@ function Navibar() {
         <ul className='md:flex space-x-4'>
           <li><Link to="/" className='text'>หน้าหลัก</Link></li>
           <li><Link to="/วันสำคัญ" className='text'>วันสำคัญ</Link></li>
-          <li><a href="#" className='text'>แหล่งที่มา</a></li>
-          <li><a href="#" className='text'>ผู้จัดทำ</a></li>
+          <li><Link to="/ข้อมูล" className='text'>แหล่งที่มา</Link></li>
+          <li><Link to="/จัดทำ" className='text'>ผู้จัดทำ</Link></li>
         </ul>
       </div>
     </nav>
