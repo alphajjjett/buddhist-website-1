@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './nav.css' ;
 
 function Navibar() {
@@ -9,8 +10,8 @@ function Navibar() {
         <img src="./logo/logo1.png" alt='logo1' className="budhalogo" />
 
         <ul className='md:flex space-x-4'>
-          <li><a href="#" className='text'>หน้าหลัก</a></li>
-          <li><a href="#" className='text'>วันสำคัญ</a></li>
+          <li><Link to="/" className='text'>หน้าหลัก</Link></li>
+          <li><Link to="/วันสำคัญ" className='text'>วันสำคัญ</Link></li>
           <li><a href="#" className='text'>แหล่งที่มา</a></li>
           <li><a href="#" className='text'>ผู้จัดทำ</a></li>
         </ul>
