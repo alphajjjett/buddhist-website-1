@@ -9,7 +9,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Profile from './Pages/Profile';
+
+import About from './Pages/About';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
   },
   {
     path: "จัดทำ",
-    element: <Profile/>,
+    element: <About/>,
   },
 ]); 
 

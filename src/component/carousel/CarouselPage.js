@@ -1,23 +1,23 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css'; // อย่าลืม import bootstrap CSS
-import './Carousel.css'; // import ไฟล์ CSS ของคุณ
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Carousel.css'; 
 
 function CarouselPage() {
   return (
     <div>
-        <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://via.placeholder.com/800x400?text=First+Slide"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First Slide Label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+      <Carousel>
+        <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://via.placeholder.com/800x400?text=First+Slide"
+              alt="First slide"
+            />
+          <Carousel.Caption>
+            <h3>First Slide Label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
       <Carousel.Item>
         <img

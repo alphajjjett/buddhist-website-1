@@ -2,6 +2,8 @@ import React from 'react';
 import Navibar from './component/nav/Navibar';
 import CarouselPage from './component/carousel/CarouselPage';
 import Card from './Card';
+import { motion } from "framer-motion"
+
 import "./App.css";
 
 
@@ -11,6 +13,10 @@ function App() {
       <Navibar></Navibar>
       <CarouselPage></CarouselPage>
       <Card></Card>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+      >
       <h1><b>ศาสนาพุทธ</b> หมายถึง ?</h1>
       
       <div className="video-responsive">
@@ -25,6 +31,7 @@ function App() {
         <b>พุทธศาสนา</b> เป็นคำสอนที่ลึกซึ้งและซับซ้อน ไม่สามารถจำกัดให้อยู่ในหมวดหมู่เดียวได้ ไม่ว่าจะเป็นศาสนา ปรัชญา หรือวิถีชีวิต 
         พุทธศาสนาสอนเกี่ยวกับความจริงสี่ประการที่เกี่ยวข้องกับความทุกข์และการปล่อยวางความปรารถนาเพื่อบรรลุความสงบสุขในชีวิต
       </div>
+      </motion.div>
 
     </div>
   );
