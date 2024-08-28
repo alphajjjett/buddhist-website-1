@@ -1,5 +1,6 @@
 import React from 'react'
 import Navibar from '../component/nav/Navibar'
+import Fterpage from '../component/footer/Fterpage'
 import './About.css'
 
 function About() {
@@ -24,6 +25,7 @@ function About() {
           Thank you for visiting our website, and we hope you find our content valuable and enriching.
         </p>
       </div>
+      <Fterpage></Fterpage>
     </div>
   )
 }

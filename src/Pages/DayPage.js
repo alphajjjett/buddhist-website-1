@@ -1,13 +1,13 @@
 import React from 'react'
 import Navibar from '../component/nav/Navibar'
-import CarouselPage from '../component/carousel/CarouselPage'
+import Fterpage from '../component/footer/Fterpage'
 
 function DayPage() {
   return (
     <div>
         <Navibar></Navibar>
-        <CarouselPage></CarouselPage>
         <h1>Page 2</h1>
+        <Fterpage></Fterpage>
     </div>
   )
 }
