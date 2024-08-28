@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './nav.css' ;
 
 function Navibar() {
+
   return (
     <nav className='bg p-4'>
       <div className="flex items-center justify-between">
