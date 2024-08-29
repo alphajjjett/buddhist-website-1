@@ -1,6 +1,9 @@
 import React from 'react';
-import './component/card/Card.css';
+import "./Card.css"
 import { motion } from "framer-motion"
+import { Link } from 'react-router-dom';
+
+
 
 function Card() {
   return (
@@ -18,10 +21,8 @@ function Card() {
             className="card-image"
           />
           <div className="card-content">
-            <time dateTime="2022-10-10" className="card-date"> 1 ส.ค. 2567 </time>
-            <a href="#">
-              <h3 className="card-title">วันมาฆะบูชา</h3>
-            </a>
+            <time dateTime="01-08-2024" className="card-date"> 1 ส.ค. 2567 </time>
+              <Link to="เนื้อหา1"className="text"> วันมาฆะบูชา </Link>
             <p className="card-text">
             วันมาฆบูชา ตรงกับวันขึ้น 15 ค่ำ เดือน 3 ถือเป็นวันสำคัญทางพระพุทธศาสนาวันหนึ่ง สำหรับประวัติวันมาฆบูชา ความสำคัญของวันมาฆบูชา รวมถึงกิจกรรมที่พุทธศาสนิกชนควรปฏิบัติมีอะไรบ้าง
             </p>
@@ -36,10 +37,8 @@ function Card() {
             className="card-image"
           />
           <div className="card-content">
-            <time dateTime="2022-10-11" className="card-date"> 1 ส.ค. 2567 </time>
-            <a href="#">
-              <h3 className="card-title">วันวิสาขบูชา</h3>
-            </a>
+            <time dateTime="01-08-2024" className="card-date"> 1 ส.ค. 2567 </time>
+              <Link to="เนื้อหา2" className="text"> วันวิสาขบูชา </Link>
             <p className="card-text">
             เป็นวันที่สมเด็จพระอรหันตสัมมาสัมพุทธเจ้า ประสูติ ตรัสรู้ และปรินิพพาน ซึ่งเกิดขึ้นในวันและเดือนเดียวกัน คือ ในวันเพ็ญ (ขึ้น ๑๕ ค่ำ) เดือนหก หรือเดือนเวสาขะ พระจันทร์เสวยวิสาขฤกษ์
             </p>
@@ -54,10 +53,8 @@ function Card() {
             className="card-image"
           />
           <div className="card-content">
-            <time dateTime="2022-10-12" className="card-date"> 1 ส.ค. 2567 </time>
-            <a href="#">
-              <h3 className="card-title">วันอัฏฐมีบูชา</h3>
-            </a>
+            <time dateTime="01-08-2024" className="card-date"> 1 ส.ค. 2567 </time>
+              <Link to="เนื้อหา3" className="text"> วันอัฏฐมีบูชา </Link>
             <p className="card-text">
             เมื่อพระพุทธเจ้าเสด็จปรินิพพานแล้ว ๘ วัน มัลลกษัตริย์แห่งนครกุสินารา พร้อมด้วยประชาชน และพระสงฆ์อันมีพระมหากัสสปเถระเป็นประธาน ได้พร้อมกันกระทำการถวายพระเพลิงพุทธสรีระ ณ มกุฏพันธนเจดีแห่งกรุงกุสินารา
             </p>

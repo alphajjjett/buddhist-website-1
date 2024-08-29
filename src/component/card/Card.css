@@ -34,6 +34,7 @@
 
 .card-content {
   padding: 16px;
+  
 }
 
 .card-date {
@@ -44,14 +45,16 @@
 
 .card-title {
   margin-top: 4px;
-  font-size: 1.125rem; /* Tailwind CSS text-lg */
-  color: #1f2937; /* Tailwind CSS gray-900 */
+  font-size: 1.125rem; 
+  color: #1f2937; 
   font-weight: bold;
   transition: color 0.3s ease-in-out;
+
 }
 
 .card-title:hover {
   color: orange; 
+  
 }
 
 .card-text {
@@ -78,3 +81,5 @@
     flex: 1 1 100%;
   }
 }
+
+  

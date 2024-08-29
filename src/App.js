@@ -1,7 +1,7 @@
 import React from 'react';
 import Navibar from './component/nav/Navibar';
 import CarouselPage from './component/carousel/CarouselPage';
-import Card from './Card';
+import Card from './component/card/Card';
 import Fterpage from './component/footer/Fterpage';
 import { motion } from "framer-motion"
 

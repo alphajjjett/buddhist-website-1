@@ -6,7 +6,7 @@ function DayPage() {
   return (
     <div>
         <Navibar></Navibar>
-        <h1>Page 2</h1>
+          
         <Fterpage></Fterpage>
     </div>
   )

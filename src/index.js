@@ -11,6 +11,9 @@ import {
 } from "react-router-dom";
 
 import About from './Pages/About';
+import Holyday1 from './component/SubPages/Holyday1';
+import Holyday2 from './component/SubPages/Holyday2';
+import Holyday3 from './component/SubPages/Holyday3';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +31,18 @@ const router = createBrowserRouter([
   {
     path: "จัดทำ",
     element: <About/>,
+  },
+  {
+    path: "เนื้อหา1",
+    element: <Holyday1/>,
+  },
+  {
+    path: "เนื้อหา2",
+    element: <Holyday2/>,
+  },
+  {
+    path: "เนื้อหา3",
+    element: <Holyday3/>,
   },
 ]); 
 
