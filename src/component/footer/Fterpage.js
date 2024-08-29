@@ -1,4 +1,5 @@
 import React from 'react'
+import './Fter.css'
 
 function Fterpage() {
   return (

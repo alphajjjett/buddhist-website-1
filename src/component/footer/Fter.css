@@ -1,0 +1,13 @@
+.p-4{
+    font-family:'Kanit';
+}
+.text-neutral-800{
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.text-neutral-800:hover{
+    color: orange; 
+    transition: color 0.3s ease-in-out;
+}
+

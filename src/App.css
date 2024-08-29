@@ -10,6 +10,7 @@ body {
     text-align: center;
     margin-top: 20px;
     color: #333;
+    font-family:'Kanit';
   } 
   
   .video-responsive {
@@ -42,10 +43,12 @@ body {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    font-family:'Kanit';
   }
 
   .data-text b{
     font-size: 20px;
+    font-family:'Kanit';
   }
  
 

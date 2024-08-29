@@ -37,7 +37,7 @@ function Card() {
             className="card-image"
           />
           <div className="card-content">
-            <time dateTime="01-08-2024" className="card-date"> 1 ส.ค. 2567 </time>
+            <time dateTime="02-08-2024" className="card-date"> 2 ส.ค. 2567 </time>
               <Link to="เนื้อหา2" className="text"> วันวิสาขบูชา </Link>
             <p className="card-text">
             เป็นวันที่สมเด็จพระอรหันตสัมมาสัมพุทธเจ้า ประสูติ ตรัสรู้ และปรินิพพาน ซึ่งเกิดขึ้นในวันและเดือนเดียวกัน คือ ในวันเพ็ญ (ขึ้น ๑๕ ค่ำ) เดือนหก หรือเดือนเวสาขะ พระจันทร์เสวยวิสาขฤกษ์
@@ -53,7 +53,7 @@ function Card() {
             className="card-image"
           />
           <div className="card-content">
-            <time dateTime="01-08-2024" className="card-date"> 1 ส.ค. 2567 </time>
+            <time dateTime="03-08-2024" className="card-date"> 3 ส.ค. 2567 </time>
               <Link to="เนื้อหา3" className="text"> วันอัฏฐมีบูชา </Link>
             <p className="card-text">
             เมื่อพระพุทธเจ้าเสด็จปรินิพพานแล้ว ๘ วัน มัลลกษัตริย์แห่งนครกุสินารา พร้อมด้วยประชาชน และพระสงฆ์อันมีพระมหากัสสปเถระเป็นประธาน ได้พร้อมกันกระทำการถวายพระเพลิงพุทธสรีระ ณ มกุฏพันธนเจดีแห่งกรุงกุสินารา

@@ -7,9 +7,9 @@ function Navibar() {
   return (
     <nav className='bg p-4'>
       <div className="flex items-center justify-between">
-        {/* logo */}
-        <img src="./logo/logo1.png" alt='logo1' className="budhalogo" />
-
+        <Link to="/">
+          <img src="./logo/logo1.png" alt='logo1' className="budhalogo" />
+        </Link>
         <ul className='md:flex space-x-4'>
           <li><Link to="/" className='text'>หน้าหลัก</Link></li>
           <li><Link to="/วันสำคัญ" className='text'>วันสำคัญ</Link></li>

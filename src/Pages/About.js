@@ -2,29 +2,42 @@ import React from 'react'
 import Navibar from '../component/nav/Navibar'
 import Fterpage from '../component/footer/Fterpage'
 import './About.css'
+import { Link } from 'react-router-dom'
 
 function About() {
   return (
     <div>
         <Navibar></Navibar>
           <div className="about-container">
-        <h1>About Us</h1>
-        <p>
-          We are a team of dedicated professionals passionate about sharing knowledge and resources with the world. 
-          Our mission is to provide high-quality content that inspires, educates, and empowers individuals across various fields.
-        </p>
-        <p>
-          Established in 2024, our platform has grown to become a trusted source of information for millions of users worldwide.
-          We believe in the power of knowledge and strive to make learning accessible to everyone, regardless of their background or experience.
-        </p>
-        <p>
-          Our team consists of experts from diverse industries, all committed to delivering insightful and up-to-date content that meets the needs of our audience.
-          Whether you're looking to enhance your skills, stay informed on the latest trends, or simply explore new topics, we've got you covered.
-        </p>
-        <p>
-          Thank you for visiting our website, and we hope you find our content valuable and enriching.
-        </p>
-      </div>
+            <Link to='/'>
+                <button class="custom-button">
+                    ย้อนกลับ
+                </button>
+              </Link>
+          <h1>เกี่ยวกับเรา</h1>
+          <p>
+            ในสังคมที่เต็มไปด้วยข้อมูลและเทคโนโลยีในปัจจุบัน การรักษาวัฒนธรรมและประเพณีที่มีความสำคัญอย่างยิ่งยวดเป็นเรื่องที่ไม่ควรมองข้าม 
+            เว็บไซต์นี้ถูกสร้างขึ้นมาเพื่อเป็นแหล่งรวมความรู้ ข้อมูล และกิจกรรมต่างๆ 
+            ที่เกี่ยวข้องกับวันสำคัญทางศาสนาพุทธ ซึ่งเป็นส่วนสำคัญของวิถีชีวิตและความเชื่อของคนไทยและชาวพุทธทั่วโลก
+          </p>
+          <p>
+            วันสำคัญทางศาสนาพุทธ เช่น วันมาฆบูชา วันวิสาขบูชา และวันอาสาฬหบูชา เป็นวันที่มีความหมายลึกซึ้งและเป็นโอกาสที่พุทธศาสนิกชนจะได้สะท้อนถึงคำสอนของพระพุทธเจ้า 
+            ปฏิบัติธรรม และเสริมสร้างศรัทธาในศาสนา การทำเว็บไซต์นี้ขึ้นมาก็เพื่อให้ความรู้และสร้างความเข้าใจในความสำคัญของวันเหล่านี้ 
+            ไม่ว่าจะเป็นในแง่ของประวัติความเป็นมา พิธีกรรมทางศาสนา หรือแนวทางปฏิบัติที่ถูกต้อง
+          </p>
+          <p>
+            นอกจากนี้ เว็บไซต์ยังทำหน้าที่เป็นพื้นที่สำหรับการสื่อสารและแลกเปลี่ยนความคิดเห็นระหว่างผู้สนใจในพุทธศาสนา 
+            ช่วยเสริมสร้างความรู้สึกของความเป็นชุมชน และร่วมกันอนุรักษ์สืบทอดศาสนาให้คงอยู่ต่อไปในอนาคต
+          </p>
+          <p>
+            เว็บไซต์นี้ถูกพัฒนาด้วยความตั้งใจที่จะเป็นส่วนหนึ่งในการเสริมสร้างความเข้าใจและความเคารพในวันสำคัญทางศาสนาพุทธ 
+            และช่วยให้คนรุ่นใหม่สามารถเข้าถึงข้อมูลที่ถูกต้องและมีคุณค่าในการนำไปปฏิบัติในชีวิตประจำวันของตนเอง
+          </p>
+            <p className='name'>
+              สุทธิภัทธ จ๋อยศรีทอง สาขาวิทยาการคอมพิวเตอร์ 
+              <br/>รุ่นที่ 54 ภาค กศ.พบ. รหัส 6330122115308
+            </p>
+        </div>
       <Fterpage></Fterpage>
     </div>
   )
