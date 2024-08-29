@@ -19,7 +19,7 @@ function Holyday2() {
         <div className='text-info'>
           <Link to='/'>
             <button class="custom-button">
-                ย้อนกลับ
+                หน้าหลัก
             </button>
           </Link>
                 <h1>วันวิสาขบูชา</h1>

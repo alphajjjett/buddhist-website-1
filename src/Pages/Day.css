@@ -1,0 +1,54 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  font-family: 'Kanit';
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  margin: 1.5rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  border-radius: 0.75rem;
+  background-color: white;
+  color: var(--color-surface);
+  box-shadow: var(--shadow-secondary-1);
+}
+
+.dark .card {
+  background-color: var(--color-surface-dark);
+  color: white;
+}
+
+.card-image {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  width: 100%;
+}
+
+.card-content {
+  padding: 1.5rem;
+
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.no-underline {
+  text-decoration: none;
+}

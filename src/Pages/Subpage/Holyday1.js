@@ -21,7 +21,7 @@ function Holyday1() {
         <div className='text-info'>
         <Link to='/'>
           <button class="custom-button">
-              ย้อนกลับ
+              หน้าหลัก
           </button>
         </Link>
                 <h1>วันมาฆบูชา</h1>

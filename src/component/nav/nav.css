@@ -49,5 +49,25 @@ a {
   text-decoration: none;
 }
 
+.budhalogo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.budhalogo {
+  margin-right: 10px; 
+}
+
+.budhalogo-container h1 {
+  margin: 0;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+
+
+
 
 

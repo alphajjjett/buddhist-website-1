@@ -27,6 +27,7 @@
   }
   .name:hover{
     color: orange; 
+    transition: color 0.3s ease-in-out;
   }
 
   .name{

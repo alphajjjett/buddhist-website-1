@@ -19,12 +19,12 @@ function Holyday3() {
         <div className='text-info'>
             <Link to='/'>
                 <button class="custom-button">
-                    ย้อนกลับ
+                    หน้าหลัก
                 </button>
             </Link>
                 <h1>วันอัฏฐมีบูชา</h1>
                   <img
-                    alt="img5"
+                    alt="img6"
                     src="./img/img3.jpg"
                     className="image1"
                   />

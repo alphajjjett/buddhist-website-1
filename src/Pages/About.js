@@ -11,7 +11,7 @@ function About() {
           <div className="about-container">
             <Link to='/'>
                 <button class="custom-button">
-                    ย้อนกลับ
+                    หน้าหลัก
                 </button>
               </Link>
           <h1>เกี่ยวกับเรา</h1>
